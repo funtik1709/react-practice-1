@@ -1,0 +1,41 @@
+@import 'public/assets/vars.scss';
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App{
+  
+}
+
+.container{  
+
+  form{
+    input[type="submit"]{
+      background: $green;
+      color: $white;
+      border:none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition-duration: .4s;
+      &:hover{
+        background: $white;
+        color: $green;
+        border:1px solid $green;
+      }
+    }
+
+    input[type="text"]{
+      border:1px solid $green;
+      border-radius: 3px;
+    }
+  }
+}

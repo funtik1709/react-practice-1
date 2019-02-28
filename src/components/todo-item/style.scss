@@ -1,0 +1,32 @@
+@import 'public/assets/vars.scss';
+
+// .todo-item-wrap{
+//     width: 500px;
+//     background: $blue;
+//     padding: 10px;
+//     display: block;
+//     margin-bottom: 5px;
+
+//     p{
+//         color: $white;
+//     }
+// }
+
+button{
+    width: 20px;
+    height: 20px;
+    background: $red;
+    padding: 3px;
+    color: $white;
+    border:none;
+    float:right;
+    cursor:pointer;
+    transition-duration: .5s;
+    border-radius: 50%;
+    transform:rotate(45deg);
+    outline: none;
+
+    &:hover{
+        background: $black;
+    }
+}
